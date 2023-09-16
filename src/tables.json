@@ -1,0 +1,20 @@
+{
+    "clientes":[
+        {"nombre": "Antares Tech Services Inc.", "numero": 1},
+        {"nombre": "Buckeye Partners LLC", "numero": 2},
+        {"nombre": "Big River Steel", "numero": 3},
+        {"nombre": "RDT Inc.", "numero": 4},
+        {"nombre": "Golden Aluminum", "numero": 5}
+    ],
+    "UnidadNegocio":[
+        {"nombre": "Electric", "numero": 101},
+        {"nombre": "Mechannic", "numero": 102},
+        {"nombre": "Engineering", "numero": 103}
+    ],
+    "Proyectos":[
+        {"nombre": "Capacitación" , "letra": "C"},
+        {"nombre": "Proyectos Internos" , "letra": "P"},
+        {"nombre": "Proyectos Externos" , "letra": "P"},
+        {"nombre": "Estudio/Analisis previo" , "letra": "E"}
+    ]
+}

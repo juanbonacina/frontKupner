@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    border: 0px;
+    
+}
+.divBodyForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #adf85d;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+form div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+form div div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px;
+    height: 120px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+form div  div select{
+    height: 32px;
+    border-radius: 50px;
+    margin-top: 10px;
+    width: 75%;
+}
+
+#resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1d1d0;
+    height: 50px;
+    width: 250px;
+    border-radius: 15px;
+    font-size: 22px;
+}
+.divResultado{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 100px;
+    margin: 20px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divResultado button{
+    width: 25%;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+input{
+    height: 50px;
+    width: 75%;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.divNB{
+    display: flex;
+    flex-direction: row;
+}
+.divBotones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 50%;
+    padding-top: 20px;
+}
+.divBotones button{
+    width: 25%;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.LinkExit{
+    width: 25%;
+}
+.LinkExit .exit{
+    width: 100%;
+}
